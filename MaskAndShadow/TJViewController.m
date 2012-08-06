@@ -25,6 +25,10 @@
     UIImageView* image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"sj.jpeg"]];
     image.center = self.view.center;
     
+    // use the image's layer to mask the image into a circle
+    image.layer.cornerRadius = roundf(image.frame.size.width/2.0);
+    image.layer.masksToBounds = YES;
+    
     [self.view addSubview:image];
 }
 
