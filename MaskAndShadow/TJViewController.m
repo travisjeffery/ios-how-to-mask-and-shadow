@@ -17,7 +17,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    // white bg to see the shadow easier
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    // the image we're going to mask and shadow
+    UIImageView* image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"sj.jpeg"]];
+    image.center = self.view.center;
+    
+    [self.view addSubview:image];
 }
 
 - (void)viewDidUnload
