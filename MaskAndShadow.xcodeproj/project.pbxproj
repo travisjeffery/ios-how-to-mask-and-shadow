@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32FD5AB015D06CD9005EA13F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FD5AAF15D06CD9005EA13F /* UIKit.framework */; };
+		32FD5AB215D06CD9005EA13F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FD5AB115D06CD9005EA13F /* Foundation.framework */; };
+		32FD5AB415D06CD9005EA13F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FD5AB315D06CD9005EA13F /* CoreGraphics.framework */; };
+		32FD5ABA15D06CD9005EA13F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32FD5AB815D06CD9005EA13F /* InfoPlist.strings */; };
+		32FD5ABC15D06CD9005EA13F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FD5ABB15D06CD9005EA13F /* main.m */; };
+		32FD5AC015D06CD9005EA13F /* TJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FD5ABF15D06CD9005EA13F /* TJAppDelegate.m */; };
+		32FD5AC315D06CD9005EA13F /* TJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FD5AC215D06CD9005EA13F /* TJViewController.m */; };
+		32FD5AC615D06CD9005EA13F /* TJViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32FD5AC415D06CD9005EA13F /* TJViewController_iPhone.xib */; };
+		32FD5AC915D06CD9005EA13F /* TJViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32FD5AC715D06CD9005EA13F /* TJViewController_iPad.xib */; };
+		32FD5AD115D06CD9005EA13F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FD5AD015D06CD9005EA13F /* SenTestingKit.framework */; };
+		32FD5AD215D06CD9005EA13F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FD5AAF15D06CD9005EA13F /* UIKit.framework */; };
+		32FD5AD315D06CD9005EA13F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FD5AB115D06CD9005EA13F /* Foundation.framework */; };
+		32FD5ADB15D06CD9005EA13F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32FD5AD915D06CD9005EA13F /* InfoPlist.strings */; };
+		32FD5ADE15D06CD9005EA13F /* MaskAndShadowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FD5ADD15D06CD9005EA13F /* MaskAndShadowTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32FD5AD415D06CD9005EA13F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32FD5AA215D06CD9005EA13F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FD5AAA15D06CD9005EA13F;
+			remoteInfo = MaskAndShadow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32FD5AAB15D06CD9005EA13F /* MaskAndShadow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskAndShadow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FD5AAF15D06CD9005EA13F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32FD5AB115D06CD9005EA13F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32FD5AB315D06CD9005EA13F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32FD5AB715D06CD9005EA13F /* MaskAndShadow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MaskAndShadow-Info.plist"; sourceTree = "<group>"; };
+		32FD5AB915D06CD9005EA13F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32FD5ABB15D06CD9005EA13F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32FD5ABD15D06CD9005EA13F /* MaskAndShadow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MaskAndShadow-Prefix.pch"; sourceTree = "<group>"; };
+		32FD5ABE15D06CD9005EA13F /* TJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJAppDelegate.h; sourceTree = "<group>"; };
+		32FD5ABF15D06CD9005EA13F /* TJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJAppDelegate.m; sourceTree = "<group>"; };
+		32FD5AC115D06CD9005EA13F /* TJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJViewController.h; sourceTree = "<group>"; };
+		32FD5AC215D06CD9005EA13F /* TJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJViewController.m; sourceTree = "<group>"; };
+		32FD5AC515D06CD9005EA13F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TJViewController_iPhone.xib; sourceTree = "<group>"; };
+		32FD5AC815D06CD9005EA13F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TJViewController_iPad.xib; sourceTree = "<group>"; };
+		32FD5ACF15D06CD9005EA13F /* MaskAndShadowTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskAndShadowTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FD5AD015D06CD9005EA13F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		32FD5AD815D06CD9005EA13F /* MaskAndShadowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MaskAndShadowTests-Info.plist"; sourceTree = "<group>"; };
+		32FD5ADA15D06CD9005EA13F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32FD5ADC15D06CD9005EA13F /* MaskAndShadowTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskAndShadowTests.h; sourceTree = "<group>"; };
+		32FD5ADD15D06CD9005EA13F /* MaskAndShadowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskAndShadowTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32FD5AA815D06CD9005EA13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FD5AB015D06CD9005EA13F /* UIKit.framework in Frameworks */,
+				32FD5AB215D06CD9005EA13F /* Foundation.framework in Frameworks */,
+				32FD5AB415D06CD9005EA13F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FD5ACB15D06CD9005EA13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FD5AD115D06CD9005EA13F /* SenTestingKit.framework in Frameworks */,
+				32FD5AD215D06CD9005EA13F /* UIKit.framework in Frameworks */,
+				32FD5AD315D06CD9005EA13F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32FD5AA015D06CD9005EA13F = {
+			isa = PBXGroup;
+			children = (
+				32FD5AB515D06CD9005EA13F /* MaskAndShadow */,
+				32FD5AD615D06CD9005EA13F /* MaskAndShadowTests */,
+				32FD5AAE15D06CD9005EA13F /* Frameworks */,
+				32FD5AAC15D06CD9005EA13F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32FD5AAC15D06CD9005EA13F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32FD5AAB15D06CD9005EA13F /* MaskAndShadow.app */,
+				32FD5ACF15D06CD9005EA13F /* MaskAndShadowTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32FD5AAE15D06CD9005EA13F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32FD5AAF15D06CD9005EA13F /* UIKit.framework */,
+				32FD5AB115D06CD9005EA13F /* Foundation.framework */,
+				32FD5AB315D06CD9005EA13F /* CoreGraphics.framework */,
+				32FD5AD015D06CD9005EA13F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32FD5AB515D06CD9005EA13F /* MaskAndShadow */ = {
+			isa = PBXGroup;
+			children = (
+				32FD5ABE15D06CD9005EA13F /* TJAppDelegate.h */,
+				32FD5ABF15D06CD9005EA13F /* TJAppDelegate.m */,
+				32FD5AC115D06CD9005EA13F /* TJViewController.h */,
+				32FD5AC215D06CD9005EA13F /* TJViewController.m */,
+				32FD5AC415D06CD9005EA13F /* TJViewController_iPhone.xib */,
+				32FD5AC715D06CD9005EA13F /* TJViewController_iPad.xib */,
+				32FD5AB615D06CD9005EA13F /* Supporting Files */,
+			);
+			path = MaskAndShadow;
+			sourceTree = "<group>";
+		};
+		32FD5AB615D06CD9005EA13F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32FD5AB715D06CD9005EA13F /* MaskAndShadow-Info.plist */,
+				32FD5AB815D06CD9005EA13F /* InfoPlist.strings */,
+				32FD5ABB15D06CD9005EA13F /* main.m */,
+				32FD5ABD15D06CD9005EA13F /* MaskAndShadow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32FD5AD615D06CD9005EA13F /* MaskAndShadowTests */ = {
+			isa = PBXGroup;
+			children = (
+				32FD5ADC15D06CD9005EA13F /* MaskAndShadowTests.h */,
+				32FD5ADD15D06CD9005EA13F /* MaskAndShadowTests.m */,
+				32FD5AD715D06CD9005EA13F /* Supporting Files */,
+			);
+			path = MaskAndShadowTests;
+			sourceTree = "<group>";
+		};
+		32FD5AD715D06CD9005EA13F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32FD5AD815D06CD9005EA13F /* MaskAndShadowTests-Info.plist */,
+				32FD5AD915D06CD9005EA13F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32FD5AAA15D06CD9005EA13F /* MaskAndShadow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FD5AE115D06CD9005EA13F /* Build configuration list for PBXNativeTarget "MaskAndShadow" */;
+			buildPhases = (
+				32FD5AA715D06CD9005EA13F /* Sources */,
+				32FD5AA815D06CD9005EA13F /* Frameworks */,
+				32FD5AA915D06CD9005EA13F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaskAndShadow;
+			productName = MaskAndShadow;
+			productReference = 32FD5AAB15D06CD9005EA13F /* MaskAndShadow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32FD5ACE15D06CD9005EA13F /* MaskAndShadowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FD5AE415D06CD9005EA13F /* Build configuration list for PBXNativeTarget "MaskAndShadowTests" */;
+			buildPhases = (
+				32FD5ACA15D06CD9005EA13F /* Sources */,
+				32FD5ACB15D06CD9005EA13F /* Frameworks */,
+				32FD5ACC15D06CD9005EA13F /* Resources */,
+				32FD5ACD15D06CD9005EA13F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32FD5AD515D06CD9005EA13F /* PBXTargetDependency */,
+			);
+			name = MaskAndShadowTests;
+			productName = MaskAndShadowTests;
+			productReference = 32FD5ACF15D06CD9005EA13F /* MaskAndShadowTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32FD5AA215D06CD9005EA13F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TJ;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Travis Jeffery";
+			};
+			buildConfigurationList = 32FD5AA515D06CD9005EA13F /* Build configuration list for PBXProject "MaskAndShadow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32FD5AA015D06CD9005EA13F;
+			productRefGroup = 32FD5AAC15D06CD9005EA13F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32FD5AAA15D06CD9005EA13F /* MaskAndShadow */,
+				32FD5ACE15D06CD9005EA13F /* MaskAndShadowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32FD5AA915D06CD9005EA13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FD5ABA15D06CD9005EA13F /* InfoPlist.strings in Resources */,
+				32FD5AC615D06CD9005EA13F /* TJViewController_iPhone.xib in Resources */,
+				32FD5AC915D06CD9005EA13F /* TJViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FD5ACC15D06CD9005EA13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FD5ADB15D06CD9005EA13F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32FD5ACD15D06CD9005EA13F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32FD5AA715D06CD9005EA13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FD5ABC15D06CD9005EA13F /* main.m in Sources */,
+				32FD5AC015D06CD9005EA13F /* TJAppDelegate.m in Sources */,
+				32FD5AC315D06CD9005EA13F /* TJViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FD5ACA15D06CD9005EA13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FD5ADE15D06CD9005EA13F /* MaskAndShadowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32FD5AD515D06CD9005EA13F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32FD5AAA15D06CD9005EA13F /* MaskAndShadow */;
+			targetProxy = 32FD5AD415D06CD9005EA13F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32FD5AB815D06CD9005EA13F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FD5AB915D06CD9005EA13F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32FD5AC415D06CD9005EA13F /* TJViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FD5AC515D06CD9005EA13F /* en */,
+			);
+			name = TJViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		32FD5AC715D06CD9005EA13F /* TJViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FD5AC815D06CD9005EA13F /* en */,
+			);
+			name = TJViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		32FD5AD915D06CD9005EA13F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FD5ADA15D06CD9005EA13F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32FD5ADF15D06CD9005EA13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32FD5AE015D06CD9005EA13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32FD5AE215D06CD9005EA13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskAndShadow/MaskAndShadow-Prefix.pch";
+				INFOPLIST_FILE = "MaskAndShadow/MaskAndShadow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32FD5AE315D06CD9005EA13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskAndShadow/MaskAndShadow-Prefix.pch";
+				INFOPLIST_FILE = "MaskAndShadow/MaskAndShadow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		32FD5AE515D06CD9005EA13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MaskAndShadow.app/MaskAndShadow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskAndShadow/MaskAndShadow-Prefix.pch";
+				INFOPLIST_FILE = "MaskAndShadowTests/MaskAndShadowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		32FD5AE615D06CD9005EA13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MaskAndShadow.app/MaskAndShadow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskAndShadow/MaskAndShadow-Prefix.pch";
+				INFOPLIST_FILE = "MaskAndShadowTests/MaskAndShadowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32FD5AA515D06CD9005EA13F /* Build configuration list for PBXProject "MaskAndShadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FD5ADF15D06CD9005EA13F /* Debug */,
+				32FD5AE015D06CD9005EA13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FD5AE115D06CD9005EA13F /* Build configuration list for PBXNativeTarget "MaskAndShadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FD5AE215D06CD9005EA13F /* Debug */,
+				32FD5AE315D06CD9005EA13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32FD5AE415D06CD9005EA13F /* Build configuration list for PBXNativeTarget "MaskAndShadowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FD5AE515D06CD9005EA13F /* Debug */,
+				32FD5AE615D06CD9005EA13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32FD5AA215D06CD9005EA13F /* Project object */;
+}
