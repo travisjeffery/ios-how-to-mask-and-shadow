@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		326058AE15D0734C00B15192 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326058AD15D0734C00B15192 /* QuartzCore.framework */; };
+		326058B115D076D200B15192 /* sj.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 326058B015D076D200B15192 /* sj.jpeg */; };
 		32FD5AB015D06CD9005EA13F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FD5AAF15D06CD9005EA13F /* UIKit.framework */; };
 		32FD5AB215D06CD9005EA13F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FD5AB115D06CD9005EA13F /* Foundation.framework */; };
 		32FD5AB415D06CD9005EA13F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FD5AB315D06CD9005EA13F /* CoreGraphics.framework */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		326058AD15D0734C00B15192 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		326058B015D076D200B15192 /* sj.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sj.jpeg; path = Resources/sj.jpeg; sourceTree = SOURCE_ROOT; };
 		32FD5AAB15D06CD9005EA13F /* MaskAndShadow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskAndShadow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FD5AAF15D06CD9005EA13F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		32FD5AB115D06CD9005EA13F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				326058AE15D0734C00B15192 /* QuartzCore.framework in Frameworks */,
 				32FD5AB015D06CD9005EA13F /* UIKit.framework in Frameworks */,
 				32FD5AB215D06CD9005EA13F /* Foundation.framework in Frameworks */,
 				32FD5AB415D06CD9005EA13F /* CoreGraphics.framework in Frameworks */,
@@ -102,6 +107,7 @@
 		32FD5AAE15D06CD9005EA13F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				326058AD15D0734C00B15192 /* QuartzCore.framework */,
 				32FD5AAF15D06CD9005EA13F /* UIKit.framework */,
 				32FD5AB115D06CD9005EA13F /* Foundation.framework */,
 				32FD5AB315D06CD9005EA13F /* CoreGraphics.framework */,
@@ -120,6 +126,7 @@
 				32FD5AC415D06CD9005EA13F /* TJViewController_iPhone.xib */,
 				32FD5AC715D06CD9005EA13F /* TJViewController_iPad.xib */,
 				32FD5AB615D06CD9005EA13F /* Supporting Files */,
+				32FD5AE715D06D21005EA13F /* Resources */,
 			);
 			path = MaskAndShadow;
 			sourceTree = "<group>";
@@ -152,6 +159,14 @@
 				32FD5AD915D06CD9005EA13F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32FD5AE715D06D21005EA13F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				326058B015D076D200B15192 /* sj.jpeg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +244,7 @@
 				32FD5ABA15D06CD9005EA13F /* InfoPlist.strings in Resources */,
 				32FD5AC615D06CD9005EA13F /* TJViewController_iPhone.xib in Resources */,
 				32FD5AC915D06CD9005EA13F /* TJViewController_iPad.xib in Resources */,
+				326058B115D076D200B15192 /* sj.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +465,7 @@
 				32FD5AE315D06CD9005EA13F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32FD5AE415D06CD9005EA13F /* Build configuration list for PBXNativeTarget "MaskAndShadowTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +474,7 @@
 				32FD5AE615D06CD9005EA13F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
